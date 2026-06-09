@@ -81,7 +81,7 @@ Each model is evaluated using:
 - Kappa Statistic
 
 ## Packages Used
----
+
 - R
 - caret
 - dplyr
@@ -99,6 +99,7 @@ Each model is evaluated using:
 ## Results
 
 The comparison demonstrates that **Decision Tree (C5.0) with upsampling** delivers the strongest overall performance by achieving high sensitivity and specificity while remaining highly interpretable for operational use.
+<img width="386" height="511" alt="TFA R Project" src="https://github.com/user-attachments/assets/cd32b4ca-6920-4cdd-b499-ef44dcad1be4" />
 
 Key observations:
 
@@ -117,5 +118,5 @@ Key observations:
 - Model deployment through a Shiny dashboard
 - Explainability using SHAP or LIME
 
----
+
 
