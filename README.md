@@ -2,7 +2,7 @@
 A predictive analytics project developed in **R** to identify applicants who are likely to withdraw during the Teach For America (TFA) admissions process. The project applies advanced data preprocessing, feature engineering, class balancing through upsampling, and compares multiple machine learning models to recommend the best-performing solution.
 
 ## Project Overview
----
+
 Recruitment teams often face challenges in identifying applicants who may drop out before completing the admissions process. This project builds predictive models that help:
 
 - Predict applicant withdrawal risk
@@ -13,7 +13,7 @@ Recruitment teams often face challenges in identifying applicants who may drop o
 The workflow includes preprocessing, feature engineering, model training, evaluation, and comparison across multiple algorithms.
 
 ## Dataset
----
+
 The dataset contains applicant demographic, academic, and behavioral information including:
 
 - Sign-up dates
@@ -31,7 +31,7 @@ The target variable is:
   - Withdrew
 
 ## Features Engineered
----
+
 Several behavioral features were created to improve predictive performance:
 
 - Days from signup to application start
@@ -47,7 +47,7 @@ Several behavioral features were created to improve predictive performance:
 High-cardinality categorical variables were also reduced to improve generalization.
 
 ## Data Preprocessing
----
+
 The pipeline includes:
 
 - Missing value imputation
@@ -61,7 +61,7 @@ The pipeline includes:
 To address class imbalance, the minority class was **upsampled** to match the majority class.
 
 ## Machine Learning Models
----
+
 The project compares five supervised learning algorithms:
 
 - Decision Tree (C5.0)
@@ -97,7 +97,7 @@ Each model is evaluated using:
 - partykit
 
 ## Results
----
+
 The comparison demonstrates that **Decision Tree (C5.0) with upsampling** delivers the strongest overall performance by achieving high sensitivity and specificity while remaining highly interpretable for operational use.
 
 Key observations:
@@ -110,7 +110,7 @@ Key observations:
 
 
 ## Future Improvements
----
+
 - Implement SMOTE for synthetic oversampling
 - Hyperparameter optimization using grid/random search
 - Ensemble methods such as Random Forest and XGBoost
